@@ -1,6 +1,6 @@
 # wholehartedwellness.com
 
-The company website for Whole Harted Wellness LLC. One static HTML page, no
+The company website for Wholeharted Wellness, LLC. One static HTML page, no
 framework and no build step, hosted on GitHub Pages.
 
 ## Editing it
