@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Whole Harted Wellness LLC</title>
+<meta name="description" content="Whole Harted Wellness LLC builds and operates software for clubs, restaurants and hospitality teams. Based in Lexington, Kentucky.">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://wholehartedwellness.com/">
+<style>
+  :root {
+    --ink: #10223a;
+    --ink-soft: #46586f;
+    --ink-faint: #7a8798;
+    --accent: #0f766e;
+    --accent-soft: #e6f4f1;
+    --page: #fbfaf8;
+    --card: #ffffff;
+    --rule: #e6e3dd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #f2f5f8;
+      --ink-soft: #c2ccd8;
+      --ink-faint: #8b97a5;
+      --accent: #5eead4;
+      --accent-soft: #10312d;
+      --page: #0c1620;
+      --card: #121f2b;
+      --rule: #22323f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink);
+    font: 400 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; padding: 0 1.25rem; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+
+  header { padding: 4.5rem 0 3rem; border-bottom: 1px solid var(--rule); }
+  .mark {
+    display: inline-block; font-size: .75rem; font-weight: 700; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--accent); background: var(--accent-soft);
+    padding: .35rem .7rem; border-radius: 999px; margin-bottom: 1.5rem;
+  }
+  h1 { font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1.15; margin: 0 0 1rem; letter-spacing: -.02em; }
+  .lede { font-size: clamp(1.05rem, 2.6vw, 1.25rem); color: var(--ink-soft); margin: 0; max-width: 34rem; }
+
+  section { padding: 3rem 0; border-bottom: 1px solid var(--rule); }
+  h2 { font-size: .8rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-faint); margin: 0 0 1.25rem; }
+  p { margin: 0 0 1rem; color: var(--ink-soft); }
+  p:last-child { margin-bottom: 0; }
+
+  .product {
+    background: var(--card); border: 1px solid var(--rule); border-radius: 14px;
+    padding: 1.5rem; margin-bottom: 1rem;
+  }
+  .product h3 { margin: 0 0 .5rem; font-size: 1.25rem; color: var(--ink); }
+  .product p { margin-bottom: 1rem; }
+  .product a { font-weight: 600; text-decoration: none; }
+  .product a:hover { text-decoration: underline; }
+  .product a::after { content: " \2192"; }
+
+  dl { margin: 0; display: grid; gap: 1.25rem; }
+  dt { font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: .2rem; }
+  dd { margin: 0; color: var(--ink-soft); }
+  dd a { font-weight: 600; }
+
+  footer { padding: 2.5rem 0 4rem; color: var(--ink-faint); font-size: .9rem; }
+
+  @media (min-width: 40rem) {
+    dl { grid-template-columns: 1fr 1fr; gap: 1.75rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="mark">Lexington, Kentucky</span>
+    <h1>Whole Harted Wellness LLC</h1>
+    <p class="lede">
+      We build and operate software for the businesses that run on it &mdash; clubs,
+      restaurants and hospitality teams.
+    </p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <h2>What we do</h2>
+      <p>
+        Whole Harted Wellness LLC is a small software company. We design, build and run
+        our own products rather than handing them over at launch, so the businesses
+        using them have someone who answers when something needs fixing.
+      </p>
+      <p>
+        Our work is aimed at operations that run on shift work, where getting the
+        schedule right decides whether the day goes smoothly.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Our products</h2>
+      <div class="product">
+        <h3>Schedule Maxxing</h3>
+        <p>
+          Staff scheduling for clubs, restaurants and hospitality teams. Coverage
+          requirements by role and location, schedules generated automatically around
+          them, time off, shift trades, department checklists and minor labor rules,
+          all in one place.
+        </p>
+        <a href="https://www.schedulemaxxing.com">schedulemaxxing.com</a>
+      </div>
+      <p>Further products are in development.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Contact</h2>
+      <dl>
+        <div>
+          <dt>Email</dt>
+          <dd><a href="mailto:miles@wholehartedwellness.com">miles@wholehartedwellness.com</a></dd>
+        </div>
+        <div>
+          <dt>Location</dt>
+          <dd>Lexington, Kentucky, United States</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    &copy; 2026 Whole Harted Wellness LLC. All rights reserved.
+  </div>
+</footer>
+
+</body>
+</html>
